@@ -1,18 +1,31 @@
+#loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: black url("OFFICIAL\ PRELOADER.gif") no-repeat center;
+    background-size: 300px;
+    z-index: 100;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+    #loader{
+        background-size: 200px;
+    }
+  }
+
+
 #body{
     background-color: rgb(2, 53, 87);
+    z-index: 4;
+}
+
+.form-group{
+    margin-bottom: 30px;
 }
 
 form{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.836);
 }
 
-/* 
-#preloader{
-    background: rgb(0, 0, 0) url("loader.gif") no-repeat center;
-    background-size: 15%;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-*/
+
